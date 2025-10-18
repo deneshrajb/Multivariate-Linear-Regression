@@ -44,10 +44,14 @@ print("Variance score (R^2): {:.2f}".format(reg.score(X_test, y_test)))
 
 ```
 ## Output:
-<img width="656" height="76" alt="{F66D175B-0E91-4873-BE68-FBF99C2429AB}" src="https://github.com/user-attachments/assets/16806061-026a-4f7e-88fe-b77fe0d8b6ac" />
+Coefficients: [ 4.36676927e-01  9.58588561e-03 -9.61859974e-02  5.77800722e-01
+ -4.33084487e-06 -3.13805195e-03 -4.22347516e-01 -4.34869554e-01]
+Intercept: -36.93649134035418
+Variance score (R^2): 0.61
 
 ### Insert your output
 
+<img width="656" height="76" alt="{F66D175B-0E91-4873-BE68-FBF99C2429AB}" src="https://github.com/user-attachments/assets/16806061-026a-4f7e-88fe-b77fe0d8b6ac" />
 <br>
 
 ## Result
