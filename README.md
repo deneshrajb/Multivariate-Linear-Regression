@@ -6,20 +6,25 @@ To write a python program to implement multivariate linear regression and predic
 2.	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
 ### Step1
-<br>
-Import required Python libraries (numpy, matplotlib, sklearn) and load the California Housing dataset using fetch_california_housing().
+<br> Import required Python libraries (numpy, matplotlib, sklearn) and load the California Housing dataset using fetch_california_housing().
+
+
 ### Step2
-<br>
-Extract the features (X) and target values (y) from the dataset, then split them into training and testing sets using train_test_split() (e.g., 60% train, 40% test).
+<br> Extract the features (X) and target values (y) from the dataset, then split them into training and testing sets using train_test_split() (e.g., 60% train, 40% test).
+
+
 ### Step3
-<br>
-Create a LinearRegression() model and fit it using the training data (X_train, y_train) to learn the relationship between input features and target output.
+<br> Create a LinearRegression() model and fit it using the training data (X_train, y_train) to learn the relationship between input features and target output.
+
+
 ### Step4
-<br>
-Use the trained model to predict target values for the test set (X_test) and evaluate its performance using the R² score (reg.score()), which measures how well the model explains the variability of the data.
+<br> Use the trained model to predict target values for the test set (X_test) and evaluate its performance using the R² score (reg.score()), which measures how well the model explains the variability of the data.
+
+
 ### Step5
-<br>
-Print the coefficients, intercept, and variance score. Optionally, visualize the actual vs. predicted values using a scatter plot to assess the model’s accuracy.
+<br> Print the coefficients, intercept, and variance score. Optionally, visualize the actual vs. predicted values using a scatter plot to assess the model’s accuracy.
+
+
 ## Program:
 ```
 import matplotlib.pyplot as plt
